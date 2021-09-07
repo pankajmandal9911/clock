@@ -1,0 +1,197 @@
+
+*{
+    margin: 0;
+    padding:0;
+    /* background-color: yellow; */
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("abstract-3291293__340.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    width: 90%;
+    height: 90%;
+
+    background:url("pngfind.com-clock-face-png-647942.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 6%;
+    left: 4%;
+    /* border: 2px solid red; */
+    position: relative;
+}
+#hour, #minute, #second{
+    position:absolute;
+    background: black; 
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 0.3%;
+    height: 16%;
+    background-color: black;
+    top: 33.6%;
+    left: 49.69%;
+    border: 1.5px solid black;
+    /* display: none; */
+    
+}
+#minute{
+    width: 0.2%;
+    height: 22%;
+    background-color: black;
+    top: 27.7%;
+    left: 49.7%;
+    border: 1.5px solid black;
+   /* display: none; */
+}
+#second{
+    width: 0.1%;
+    height: 28%;
+    background-color: black;
+    top: 21.6%;
+    left: 49.7%;
+    border: 1.5px solid black;
+     /* display: none; */
+} 
+
+@media only screen and (max-width:567px){
+    #second{
+    width: 0.1%;
+    height: 22%;
+    background-color: black;
+    top: 27.6%;
+    left: 49.7%;
+    /* display: none; */
+    }
+    #minute{
+    width: 0.2%;
+    height: 18%;
+    background-color: black;
+    top: 31.7%;
+    left: 49.7%;
+    /* display: none; */
+    }
+    #hour{
+     width: 0.2%;
+    height: 12%;
+    background-color: black;
+    top: 37.6%;
+    left: 49.71%;
+    }
+}
+
+@media only screen and (max-width:447px){
+    #second{
+        width: 0.1%;
+        height: 17%;
+        background-color: black;
+        top: 32.6%;
+        left: 49.6%;
+        /* display: none; */
+        }
+        #minute{
+            width: 0.2%;
+            height: 14%;
+            background-color: black;
+            top: 35.7%;
+            left: 49.6%;
+            /* display: none; */
+        }
+        #hour{
+            width: 0.2%;
+            height: 9%;
+           background-color: black;
+          top: 40.6%;
+            left: 49.6%;
+        /* display: none; */
+        }
+}
+@media only screen and (max-width:377px){
+      
+    #second{
+        width: 0.01%;
+        height: 14%;
+        background-color: black;
+        top: 35.6%;
+        left: 49.6%;
+        border: 0.5px solid black;
+        /* display: none; */
+        }
+        #minute{
+            width: 0.2%;
+            height: 12%;
+            top: 37.7%;
+            left: 49.7%;
+            border: 0.7px solid black;
+       /* display: none; */
+        }
+        #hour{
+            width: 0.2%;
+            height: 9%;
+            top: 40.6%;
+            left: 49.7%;
+            border: 1px solid black;
+        /* display: none; */
+        }
+}
+@media only screen and (max-width:300px){
+    #second{
+        width: 0.01%;
+    height: 11%;
+    background-color: black;
+    top: 38.6%;
+    left: 49.6%;
+    border: 0.5px solid black;
+        /* display: none; */
+        }
+        #minute{
+            width: 0.2%;
+            height: 9%;
+            top: 40.7%;
+            left: 49.6%;
+            border: 0.7px solid black;
+       /* display: none; */
+        }
+        #hour{
+            width: 0.2%;
+            height: 7%;
+            top: 42.6%;
+            left: 49.6%;
+            border: 1px solid black;
+        /* display: none; */
+        }
+}
+
+@media only screen and (max-width:240px){
+    #second{
+        width: 0.01%;
+    height: 7.5%;
+    background-color: black;
+    top: 42.1%;
+    left: 49.6%;
+    border: 0.5px solid black;
+        /* display: none; */
+        }
+        #minute{
+            width: 0.2%;
+    height: 6%;
+    top: 43.7%;
+    left: 49.6%;
+    border: 0.7px solid black;
+           /* display: none; */
+        }
+        #hour{
+            width: 0.2%;
+    height: 5%;
+    top: 44.6%;
+    left: 49.6%;
+    border: 1px solid black;
+        /* display: none; */
+        }
+
+
+}
